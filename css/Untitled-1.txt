@@ -1,0 +1,18 @@
+<?php
+                wp_nav_menu(array(
+                    'theme_location'    =>  'mainmenu',
+                    'level' => 2
+                ));
+            ?>
+
+
+            <li><a href="">Home</a></li>
+            <li><a href="">Asia</a>
+                <ul>
+                    <li><a href="">Japan</a></li>
+                    <li><a href="">china</a></li>
+                </ul>
+            </li>
+            <li><a href="">West</a></li>
+            <li><a href="">online</a></li>
+            <li><a href="">mother</a></li>
